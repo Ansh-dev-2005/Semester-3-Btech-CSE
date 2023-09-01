@@ -1,0 +1,49 @@
+/* write css for profile.html */
+/* Path: profile.css */
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-top: 50px;
+}
+
+img{
+    width: 200px;
+    height: 100%;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-top: 50px;
+}
+ul{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-top: 50px;
+}
+table{
+    margin-left: 30%;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-color: #000000;
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px;
+    
+}

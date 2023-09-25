@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+    "${workspaceFolder}/**", // This includes all files in your workspace
+    "E:/SEM3/os/file/exp-4",
+    "E:/SEM3/C-Lab-Daa/experiment/", // Add the path to your project folder
+    // Add any other necessary paths here
+]
+,
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}

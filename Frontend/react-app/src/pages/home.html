@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(clock.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 1.0;
+        }
+
+        body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header
+        {
+            background-color: pink;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        li.nav-item
+        {
+            float: left;
+        }
+
+        li.nav-item a
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.nav-item a:hover {
+            background-color: #555;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to Dehradun</h1>
+</header>
+
+<ul class="navbar">
+    <li class="nav-item"><a href="http://127.0.0.1:5500/p6.html" class="active">Home</a></li>
+    <li class="nav-item"><div class="dropdown">
+        <button class="dropbtn">Entertainment🎦 ▼
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="https://www.google.com/search?q=cinema+hall+in+dehradun&sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&biw=1536&bih=707&tbm=lcl&sxsrf=AB5stBgTLvL8kuMxz0Dw1QZX58bHVs0Z8w%3A1694420489066&ei=Cc7-ZKjUA6eI4-EPgrq-kAI&oq=cinema&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgZjaW5lbWEqAggAMgcQABiKBRhDMgcQABiKBRhDMgcQABiKBRhDMhAQABiKBRixAxiDARjJAxhDMggQABiKBRiSAzIHEAAYigUYQzIHEAAYigUYQzIKEAAYigUYsQMYQzIKEAAYigUYsQMYQzIHEAAYigUYQ0i4FlCPBljhDXABeACQAQCYAesCoAHcC6oBBzAuMy4yLjG4AQPIAQD4AQGoAgrCAgcQIxjqAhgnwgIEECMYJ8ICCBAAGIoFGJECwgILEAAYgAQYsQMYgwHCAgsQABiKBRixAxiDAcICDRAAGIoFGLEDGIMBGEPCAgoQABiKBRjJAxhDiAYB&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.4071507,78.0999764],[30.262648000000002,77.99014509999999]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:1">Cinema hall</a>
+            <a href="https://www.google.com/search?q=stadium+in+dehradun&sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&biw=1536&bih=707&tbm=lcl&sxsrf=AB5stBimPh6ItgDEHV0uZ5YPlGRKvL8q0A%3A1694420494923&ei=Ds7-ZKv8N4jU4-EP_OKcaA&ved=0ahUKEwiru8ydkKKBAxUI6jgGHXwxBw0Q4dUDCAk&uact=5&oq=stadium+in+dehradun&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhNzdGFkaXVtIGluIGRlaHJhZHVuMggQABiKBRiRAjIGEAAYBRgeMgYQABgFGB4yBhAAGAgYHjIGEAAYCBgeMgIQJjICECYyAhAmMgIQJjICECZIxBpQAFiQFnAAeACQAQCYAZUCoAGhEaoBAzItObgBA8gBAPgBAcICCBAAGIoFGIYDwgIHEAAYigUYQ8ICBhAAGAcYHsICBRAAGIAEwgIHEAAYDRiABMICCBAAGAgYBxgewgIIEAAYBRgHGB6IBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.396872199999997,78.1152529],[30.254289399999998,77.9556484]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1">Stadiums</a>
+        </div>
+
+    </li>
+    <li class="nav-item">
+        <div class="dropdown">
+            <button class="dropbtn">Restraunts🍽 ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://www.google.com/search?sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=AB5stBhqdsCSIsIv10XVqw04bbVxstKpKw:1694420035252&q=chinese+restaurant+in+dehradun&rflfq=1&num=10&sa=X&ved=2ahUKEwifnLTCjqKBAxW0yDgGHaIEAw4QjGp6BAgYEAE&biw=1536&bih=707&dpr=1.25#rlfi=hd:;si:;mv:[[30.400487199999997,78.0999484],[30.272075399999995,78.0189058]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9">Chinese Restraunts</a>
+                <a href="https://www.google.com/search?q=continental+restaurant+in+dehradun&sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&biw=1536&bih=707&tbm=lcl&sxsrf=AB5stBgbuNrfjdHfD7oAuxAaYfXemrSrJQ%3A1694420044942&ei=TMz-ZOuGOd2z4-EP3_eo8AE&ved=0ahUKEwjr3IPHjqKBAxXd2TgGHd87Ch4Q4dUDCAk&uact=5&oq=continental+restaurant+in+dehradun&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIiJjb250aW5lbnRhbCByZXN0YXVyYW50IGluIGRlaHJhZHVuMgYQABgFGB5I-DtQjgNYlDlwAngAkAEAmAHfA6AB5COqAQowLjUuMTIuMS4xuAEDyAEA-AEBwgIGEAAYBxgewgIIEAAYCBgHGB7CAgoQABgIGAcYHhgPwgIHEAAYigUYQ8ICBRAAGIAEwgIIEAAYBRgHGB7CAggQABiKBRiGA4gGAQ&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.399973199999994,78.1045372],[30.260359599999994,77.94550079999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3chinese_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3italian_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAklO,lf:1,lf_ui:9">Continental Restraunts</a>
+                <a href="https://www.google.com/search?q=fine+dine+restaurant+in+dehradun&sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&biw=1536&bih=707&tbm=lcl&sxsrf=AB5stBj4Pii-a_smiFJJGO5sSqPKo9Ftew%3A1694420101671&ei=hcz-ZOLFKJi94-EPy76T-Ao&oq=Fine++restaurant+in+dehradun&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhxGaW5lICByZXN0YXVyYW50IGluIGRlaHJhZHVuKgIIADIGEAAYBxgeMggQABiKBRiGAzIIEAAYigUYhgMyCBAAGIoFGIYDSIciULQGWJoXcAB4AJABApgBrQKgAY0UqgEHMC4zLjcuMbgBA8gBAPgBAcICBhAAGAUYHsICBxAjGLACGCfCAggQABgFGAcYHsICBxAAGIoFGEPCAgUQABiABMICCBAAGAcYHhgPwgIIEAAYCBgHGB6IBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.371332,78.0824769],[30.2827415,77.9914139]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3chinese_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3north_1indian_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAklO,lf:1,lf_ui:9">Fine dine Restraunts</a>
+                <a href="https://www.google.com/search?q=sweet+shops+in+dehradun&sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&biw=1536&bih=707&tbm=lcl&sxsrf=AB5stBgTWNMQtprnv6ctNa4jEInyB6jmmw%3A1694420142221&ei=rsz-ZMWJDcas4-EPnviDkAI&ved=0ahUKEwjFmLX1jqKBAxVG1jgGHR78ACIQ4dUDCAk&uact=5&oq=sweet+shops+in+dehradun&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhdzd2VldCBzaG9wcyBpbiBkZWhyYWR1bjIFEAAYgAQyBhAAGAUYHjIIEAAYigUYhgMyCBAAGIoFGIYDSJ5mUKwHWI1jcAV4AJABAZgBsAKgAfksqgEIMC4zLjE5LjG4AQPIAQD4AQHCAgYQABgIGB7CAgcQIxiwAhgnwgIIEAAYCBgHGB7CAgcQABiKBRhDwgIGEAAYBxgewgIKECEYoAEYwwQYCsICBRAAGKIEwgIIEAAYBRgHGB7CAggQABgFGB4YDcICBxAAGIAEGArCAggQABgFGB4YCsICAhAmiAYB&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.3672502,78.0816189],[30.281721599999997,77.95596950000001]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10">Sweet Shops</a>
+                <a href="https://www.google.com/search?q=fast+food+restaurant+in+dehradun&sca_esv=564283140&rlz=1C1CHBF_enIN1023IN1023&biw=1536&bih=707&tbm=lcl&sxsrf=AB5stBgkt9rhDL_QzRbcYVqHydhiyWH_mA%3A1694420177345&ei=0cz-ZPTVFO2x4-EPhqSVyA8&oq=fast+foo+in+dehradun&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhRmYXN0IGZvbyBpbiBkZWhyYWR1bioCCAEyBxAAGA0YgAQyBhAAGAcYHjIIEAAYBxgeGA8yCBAAGAUYBxgeMggQABiKBRiGAzIIEAAYigUYhgNIwSpQAFipFnAAeACQAQCYAZQCoAHoD6oBBTAuMy42uAEDyAEA-AEBwgIHEAAYigUYQ8ICAhAmwgIFEAAYgASIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.3786553,78.0855286],[30.292792199999997,77.99570489999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9">Fast Food Restraunts</a>
+            </div>
+        </div>
+    </li>
+    <li class="nav-item dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Tourist Places🚗 ▼</a>
+        <div class="dropdown-content">   
+            <a href="https://www.google.com/maps/place/FRI,+Dehradun/@30.3438308,77.9952358,17z/data=!3m1!4b1!4m6!3m5!1s0x3908d5f4c48d6bb7:0x6ecfe5ab716cd554!8m2!3d30.3438262!4d77.9978107!16zL20vMDZ3cjJz?entry=ttu">FRI Dehradun</a>
+            <a href="https://www.google.com/maps/place/Tapkeshwar+Mahadev+Mandir,+Dehradun/@30.3574527,78.0167631,15z/data=!4m2!3m1!1s0x0:0x17aaff219aca34e2?sa=X&ved=2ahUKEwijhJKtjKKBAxWD4DgGHW72CGUQ_BJ6BAhcEAA&ved=2ahUKEwijhJKtjKKBAxWD4DgGHW72CGUQ_BJ6BAhzEAg">Tapkeshwar Mahadev</a>
+            <a href="https://www.google.com/maps/place/Mindrolling+Monastery/@30.2615418,77.99771,15z/data=!4m6!3m5!1s0x39092bf8c1f85db1:0x6c4a0325eba5dd46!8m2!3d30.2615418!4d77.99771!16s%2Fg%2F11c1ljkdqg?entry=ttu">Mindrolling Monastery</a>
+            <a href="https://www.google.com/maps/place/Robber's+Cave/@30.3754146,78.059761,15z/data=!4m2!3m1!1s0x0:0xc25c085050729e14?sa=X&ved=2ahUKEwic0qaojaKBAxUswjgGHQ6QA9sQ_BJ6BAhlEAA&ved=2ahUKEwic0qaojaKBAxUswjgGHQ6QA9sQ_BJ6BAhyEAg">Robber's Cave</a>
+            <a href="https://www.google.com/maps/place/Dehradun+Zoo/@30.3901127,78.0743453,15z/data=!4m2!3m1!1s0x0:0xb897c477735c8cba?sa=X&ved=2ahUKEwi706S7jaKBAxU0yDgGHRfbBkQQ_BJ6BAhuEAA&ved=2ahUKEwi706S7jaKBAxU0yDgGHRfbBkQQ_BJ6BAh8EAg">Dehradun ZOO</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <div class="dropdown">
+            <button class="dropbtn">Shopping🛍 ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://www.google.com/search?q=malls+in+dehradun&sca_esv=56wgIIEAAYgAQYsQPCAhAQABiKBRixAxiDARjJAxhDwgIIEAAYigUYkgPCAgoQABiABBgUGIcCwgIIEAAYigUYkQLCAgcQABiABBgKwgILEAAYFhgeGPEEGAqIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[30.3726397,78.091465],[30.2608223,77.9948477]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10" class="map-link" target="_blank">Malls</a>
+                <a href="https://www.google.com/search?sca_esv=564275991&rlz=1C1CHBF_enIN1023IN1023&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=AB5stBhNq4DyMZggYb_HzhdtlF994X-C0g:1694417362059&q=markets+in+dehradun&rflfq=1&num=10&sa=X&ved=2ahUKEwjdzt3HhKKBAxXewjgGHdX3A5IQjGp6BAgZEAE&biw=1536&bih=707&dpr=1.25#rlfi=hd:;si:;mv:[[30.380824699999998,78.09261230000001],[30.267924899999997,77.94986010000001]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2" class="map-link" target="_blank">Local Markets</a>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<div id="home">
+
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 style="position: fixed; bottom: 0; width:100%; text-align: center; color: blue;">THE CAPITAL CITY OF UTTARAKHAND.</h1>
+</body>
+</html>

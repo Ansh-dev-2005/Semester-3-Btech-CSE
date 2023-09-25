@@ -5,12 +5,46 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "lldb",
+            "type": "java",
+            "name": "assign2",
             "request": "launch",
-            "name": "Debug",
-            "program": "${workspaceFolder}/<executable file>",
-            "args": [],
-            "cwd": "${workspaceFolder}"
+            "mainClass": "assign2",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "assign",
+            "request": "launch",
+            "mainClass": "assign",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "p10",
+            "request": "launch",
+            "mainClass": "p10",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "father2",
+            "request": "launch",
+            "mainClass": "father2",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "p9",
+            "request": "launch",
+            "mainClass": "p9",
+            "projectName": "SEM3_a7c42492"
         }
     ]
 }

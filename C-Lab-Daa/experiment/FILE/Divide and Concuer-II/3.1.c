@@ -64,9 +64,12 @@ double measure_time(int n)
 int main()
 {
     srand(time(NULL));
+    FILE *fp;                      // Declare file pointer
+    fp = fopen("output1.csv", "w"); // Open file for writing
 
-    int n_values[] = {10000, 50000, 100000, 250000, 350000};
+    int n_values[] = {10000, 50000, 100000, 150000, 200000,250000,300000,350000};
     int num_values = sizeof(n_values) / sizeof(n_values[0]);
+    fprintf(fp, "n,Time\n"); // Write header to file
 
     printf("n\tTime (seconds)\n");
     for (int i = 0; i < num_values; i++)
@@ -74,6 +77,7 @@ int main()
         int n = n_values[i];
         double execution_time = measure_time(n);
         printf("%d\t%.6f\n", n, execution_time);
+        fprintf(fp, "%d\t%.6f\n", n, execution_time); // Write 'n' and time to file
     }
 
     return 0;

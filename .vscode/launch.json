@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Arithmetic",
+            "request": "launch",
+            "mainClass": "Arithmetic",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "arithmetic",
+            "request": "launch",
+            "mainClass": "arithmetic",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Assignment2",
+            "request": "launch",
+            "mainClass": "Assignment2",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Simple4",
+            "request": "launch",
+            "mainClass": "Simple4",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Simple3",
+            "request": "launch",
+            "mainClass": "Experiment6.Simple3",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "assign",
+            "request": "launch",
+            "mainClass": "Experiment6.assign",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Assignment",
+            "request": "launch",
+            "mainClass": "Assignment",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "p14",
+            "request": "launch",
+            "mainClass": "p14",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "exp",
+            "request": "launch",
+            "mainClass": "exp",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
+            "name": "Exp",
+            "request": "launch",
+            "mainClass": "Exp",
+            "projectName": "SEM3_a7c42492"
+        },
+        {
+            "type": "java",
             "name": "assign2",
             "request": "launch",
             "mainClass": "assign2",

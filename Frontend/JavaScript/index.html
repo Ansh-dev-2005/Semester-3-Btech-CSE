@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Radio Buttons with Multiple Selections</title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="option" value="option1">Option 1<br>
+        <input type="radio" name="option" value="option2">Option 2<br>
+        <input type="radio" name="option" value="option3">Option 3<br>
+        <input type="radio" name="option" value="option4">Option 4<br>
+        <input type="radio" name="option" value="option5">Option 5<br>
+    </form>
+
+    <script>
+        var radioButtons = document.querySelectorAll('input[name="option"]');
+
+        function allowMultipleSelections() {
+            radioButtons.forEach(function(radioButton) {
+                radioButton.addEventListener('click', function() {
+                    radioButtons.forEach(function(rb) {
+                        if (rb !== radioButton) {
+                            rb.checked = false;
+                            console.log(rb.value + ' is unchecked');
+                        }
+                    });
+                });
+            });
+        }
+
+        allowMultipleSelections();
+    </script>
+</body>
+</html>

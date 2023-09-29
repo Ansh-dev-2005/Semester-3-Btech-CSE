@@ -37,7 +37,11 @@ int main()
     int arr[maxN];
     clock_t start, end;
 
+    FILE *fp; // Declare file pointer
+    fp = fopen("output.csv", "w"); // Open file for writing
+
     printf("n,Time\n"); // Print a header for CSV output
+    fprintf(fp, "n,Time\n"); // Write header to file
 
     for (int n = 1000; n <= maxN; n += step)
     {
@@ -49,7 +53,10 @@ int main()
 
         double cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
         printf("%d,%lf\n", n, cpu_time_used); // Print 'n' and time
+        fprintf(fp, "%d,%lf\n", n, cpu_time_used); // Write 'n' and time to file
     }
+
+    fclose(fp); // Close file
 
     return 0;
 }

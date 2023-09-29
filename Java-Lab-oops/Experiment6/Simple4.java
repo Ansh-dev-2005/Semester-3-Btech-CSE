@@ -1,4 +1,4 @@
-package mypack2;
+
 
 import Experiment6.Simple2;
 

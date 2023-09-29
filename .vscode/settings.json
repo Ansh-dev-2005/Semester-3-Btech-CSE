@@ -1,3 +1,9 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "Java-Lab-oops/mypack2",
+        "Java-Lab-oops/Experiment6",
+        "Java-Lab-oops/Experiment-7",
+        "Java-Lab-oops"
+    ]
 }

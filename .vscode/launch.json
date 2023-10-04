@@ -1,141 +1,339 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "p3",
+      "request": "launch",
+      "mainClass": "p3",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Ansh",
+      "request": "launch",
+      "mainClass": "Ansh",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "New",
+      "request": "launch",
+      "mainClass": "New",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "p2",
+      "request": "launch",
+      "mainClass": "p2",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "p1",
+      "request": "launch",
+      "mainClass": "p1",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra12",
+      "request": "launch",
+      "mainClass": "Alakshendra12",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra11",
+      "request": "launch",
+      "mainClass": "Alakshendra11",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra10",
+      "request": "launch",
+      "mainClass": "Alakshendra10",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra9",
+      "request": "launch",
+      "mainClass": "Alakshendra9",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra8",
+      "request": "launch",
+      "mainClass": "Alakshendra8",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra7",
+      "request": "launch",
+      "mainClass": "Alakshendra7",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra6",
+      "request": "launch",
+      "mainClass": "Alakshendra6",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra5",
+      "request": "launch",
+      "mainClass": "Alakshendra5",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra4",
+      "request": "launch",
+      "mainClass": "Alakshendra4",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra3",
+      "request": "launch",
+      "mainClass": "Alakshendra3",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra2",
+      "request": "launch",
+      "mainClass": "Alakshendra2",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra1",
+      "request": "launch",
+      "mainClass": "Alakshendra1",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Alakshendra",
+      "request": "launch",
+      "mainClass": "Alakshendra",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "sunny.Test",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "HAssignment1",
+      "request": "launch",
+      "mainClass": "HAssignment1",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "DeepCopyVsShallowCopyExample",
+      "request": "launch",
+      "mainClass": "DeepCopyVsShallowCopyExample",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "HAssignment",
+      "request": "launch",
+      "mainClass": "HAssignment",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "TestStudent",
+      "request": "launch",
+      "mainClass": "TestStudent",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Fibonachi",
+      "request": "launch",
+      "mainClass": "Fibonachi",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "PatientMicroservice",
+      "request": "launch",
+      "mainClass": "PatientMicroservice",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Prime",
+      "request": "launch",
+      "mainClass": "Prime",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Arithmetic",
+      "request": "launch",
+      "mainClass": "Arithmetic",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "arithmetic",
+      "request": "launch",
+      "mainClass": "arithmetic",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "Hello",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Assignment2",
+      "request": "launch",
+      "mainClass": "Assignment2",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Simple4",
+      "request": "launch",
+      "mainClass": "Simple4",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Simple3",
+      "request": "launch",
+      "mainClass": "Experiment6.Simple3",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "assign",
+      "request": "launch",
+      "mainClass": "Experiment6.assign",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Assignment",
+      "request": "launch",
+      "mainClass": "Assignment",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "p14",
+      "request": "launch",
+      "mainClass": "p14",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "exp",
+      "request": "launch",
+      "mainClass": "exp",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Exp",
+      "request": "launch",
+      "mainClass": "Exp",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "assign2",
+      "request": "launch",
+      "mainClass": "assign2",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "assign",
+      "request": "launch",
+      "mainClass": "assign",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "Test1",
+      "request": "launch",
+      "mainClass": "Test1",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "p10",
+      "request": "launch",
+      "mainClass": "p10",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "father2",
+      "request": "launch",
+      "mainClass": "father2",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "type": "java",
+      "name": "p9",
+      "request": "launch",
+      "mainClass": "p9",
+      "projectName": "SEM3_a7c42492"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/SEM3/C-Lab-Daa",
+      "program": "e:/SEM3/C-Lab-Daa/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
         {
-            "type": "java",
-            "name": "Prime",
-            "request": "launch",
-            "mainClass": "Prime",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Factorial",
-            "request": "launch",
-            "mainClass": "Factorial",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Arithmetic",
-            "request": "launch",
-            "mainClass": "Arithmetic",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "arithmetic",
-            "request": "launch",
-            "mainClass": "arithmetic",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Hello",
-            "request": "launch",
-            "mainClass": "Hello",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Assignment2",
-            "request": "launch",
-            "mainClass": "Assignment2",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Simple4",
-            "request": "launch",
-            "mainClass": "Simple4",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Simple3",
-            "request": "launch",
-            "mainClass": "Experiment6.Simple3",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "assign",
-            "request": "launch",
-            "mainClass": "Experiment6.assign",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Assignment",
-            "request": "launch",
-            "mainClass": "Assignment",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "p14",
-            "request": "launch",
-            "mainClass": "p14",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "exp",
-            "request": "launch",
-            "mainClass": "exp",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Exp",
-            "request": "launch",
-            "mainClass": "Exp",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "assign2",
-            "request": "launch",
-            "mainClass": "assign2",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "assign",
-            "request": "launch",
-            "mainClass": "assign",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "Test1",
-            "request": "launch",
-            "mainClass": "Test1",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "p10",
-            "request": "launch",
-            "mainClass": "p10",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "father2",
-            "request": "launch",
-            "mainClass": "father2",
-            "projectName": "SEM3_a7c42492"
-        },
-        {
-            "type": "java",
-            "name": "p9",
-            "request": "launch",
-            "mainClass": "p9",
-            "projectName": "SEM3_a7c42492"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }

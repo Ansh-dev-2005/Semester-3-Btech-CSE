@@ -1,6 +1,6 @@
 class Animal {
-    int numberOfLimbs = 2;
-    int numberOfEyes = 2;
+    int numberOfLimbs;
+    int numberOfEyes;
 
     public Animal(int numberOfLimbs, int numberOfEyes) {
         this.numberOfLimbs = numberOfLimbs;
@@ -20,7 +20,7 @@ class Bird extends Animal {
         super(numberOfLimbs, numberOfEyes);
         this.numberOfWings = numberOfWings;
     }
-
+    
     public void displayCharacteristics() {
         super.displayCharacteristics();
         System.out.println("Number of Wings: " + numberOfWings);
@@ -33,8 +33,10 @@ class Mammal extends Animal {
     }
 }
 
-public class p10 {
-    public static void main(String[] args) {
+public class Ansh
+{
+    public static void main(String[] args)
+    {
         Bird s = new Bird(2, 2, 2);
         System.out.println("Bird:");
         s.displayCharacteristics();
